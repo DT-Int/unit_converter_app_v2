@@ -64,8 +64,8 @@ def convert_unit():
 			result = amt / updated_si_prefixes_exponents[to]
 		else:
 			result =  amt / updated_si_prefixes_exponents[to]
-		result_in_text.set(result)
-		result_output_in_text = str(user_input_amount.get()) + " " + str(from_unit.get()) + "(s) is equal to " + str(result_in_text.get()) + " " + str(to_unit.get()) + "(s)"
+		result_output_amount.set(result)
+		result_output_in_text = str(user_input_amount.get()) + " " + str(from_unit.get()) + "(s) is equal to " + str(result_output_amount.get()) + " " + str(to_unit.get()) + "(s)"
 		result_in_text.set(result_output_in_text)
 
 # function of reset button
